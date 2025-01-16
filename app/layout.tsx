@@ -14,14 +14,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Pito Desri Pauzi - Protofolio',
     description: 'Portfolio website showcasing my work and experience as a Full Stack Developer',
-    url: 'https://protofolio-git-main-pitok-dfs-projects.vercel.app/',
+    url: 'https://protofolio-ashy-one.vercel.app/',
     siteName: 'Pito Desri Pauzi - Protofolio',
-    images: ['https://protofolio-git-main-pitok-dfs-projects.vercel.app/pito-desri-pauzi.png'],
+    images: ['https://protofolio-ashy-one.vercel.app/pito-desri-pauzi.webp'],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
-    images: ['https://protofolio-git-main-pitok-dfs-projects.vercel.app/pito-desri-pauzi.png'],
+    images: ['https://protofolio-ashy-one.vercel.app/pito-desri-pauzi.webp'],
   },
   robots: {
     index: true,
