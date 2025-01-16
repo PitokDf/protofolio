@@ -2,16 +2,16 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["https://protofolio-git-main-pitok-dfs-projects.vercel.app/"]
+    domains: ["protofolio-ashy-one.vercel.app/"],
+    unoptimized: true,
   },
   experimental: {
-    metadataBase: new URL('https://protofolio-git-main-pitok-dfs-projects.vercel.app/'), // Ganti dengan URL domain utama kamu
+    metadataBase: 'https://protofolio-ashy-one.vercel.app/', // Ganti dengan URL domain utama kamu
   },
   output: 'export',
   eslint: {
     ignoreDuringBuilds: true,
   },
-  images: { unoptimized: true },
 };
 
 module.exports = nextConfig;
