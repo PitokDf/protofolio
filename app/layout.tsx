@@ -5,6 +5,7 @@ import ThemeToggle from '@/components/theme-toogle';
 
 export const metadata: Metadata = {
   title: 'Pito Desri Pauzi - Protofolio',
+  icons: "/pito-desri-pauzi.webp",
   description: 'Portfolio website showcasing my work and experience as a Full Stack Developer',
   keywords: [
     'Full Stack Developer', 'Web Developer', 'Frontend', 'Backend', 'React', 'Next.js', 'Laravel', 'Node.js', 'Prisma', 'PostgreSQL', 'MySQL', 'JavaScript', 'TypeScript', 'API Development', 'Database Management', 'Version Control', 'GitHub', 'User Authentication', 'JWT'
