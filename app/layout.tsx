@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { ThemeProvider } from "@/components/theme-provider";
+import ThemeToggle from '@/components/theme-toogle';
 
 export const metadata: Metadata = {
   title: 'Pito Desri Pauzi - Protofolio',
@@ -49,7 +50,7 @@ export default function RootLayout({
       <body>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
