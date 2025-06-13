@@ -40,8 +40,7 @@ export default function NavigationBar() {
 
 
     return (
-        <nav className={`fixed top-0 w-full z-50 backdrop-blur-sm bg-background/80 transition-transform duration-300 ${showNav ? "translate-y-0" : "-translate-y-full"
-            }`}>
+        <nav className={`fixed top-0 w-full z-50 bg-transparent backdrop-blur-lg border-b border-white/10 shadow-lg transition-transform duration-300 ${showNav ? "translate-y-0" : "-translate-y-full"}`}>
             <div className="container mx-auto px-4">
                 <div className="h-16 flex items-center justify-between">
                     <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60">
